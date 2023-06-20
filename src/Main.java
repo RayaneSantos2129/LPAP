@@ -34,5 +34,17 @@ public class Main {
         cao.comer();
 
         rainha.comer();
+
+        //Gerador de número
+        int numero =(int) Math.ceil(Math.random() * 60);
+        System.out.println(numero);
+
+        Produto petisco = new Produto();
+        Produto racao= new Produto(1);
+        Produto remedio = new Produto(2"vermifungo");
+        Produto brinquedo = new Produto("bolinha");
+
+        petisco.setNome("biscoito");
+
 }
 }
